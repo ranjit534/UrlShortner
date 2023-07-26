@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color: #f8f8f8;
+}
+header p{
+    font-size: 55px;
+    font-weight: 555;
+    padding: 12px 12px;
+    margin-top: 66px;
+    text-align: center;
+    color: rgb(22, 125, 235);;
+}
+form{
+    margin-left: 13.5px;
+    display: inline-flex;
+}
+#urlbox{
+    width: 700px;
+    height: 295px;
+    margin: 12px auto;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px;
+    color: #dddada;
+}
+h1{
+    padding-top: 20px;
+    font-size: 38px;
+    color: rgb(94 88 88);
+    text-align: center;
+}
+.formurl{
+    width: 503px;
+    margin: 12px auto;
+}
+.formurl input{
+    width: 500px;
+    height: 52px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid rgb(40, 39, 39);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 15.6px;
+}
+.formBtn{
+    width: 100px;
+    margin: 12px auto;
+}
+.formBtn input{
+    width: 132px;
+    height: 51px;
+    border: 1px solid ghostwhite;
+    border-radius: 4px;
+    background-color: rgb(22, 125, 235);;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+}
+.formBtn input:hover{
+    background-color: rgb(3, 84, 170);
+    transition: 0.3s;
+}
+.boxCenter{
+    font-size: 16px;
+    margin: 28px auto;
+    text-align: center;
+    line-height: 1.3rem;
+    color: rgb(94 88 88);
+}
+h2{
+    font-size: 28px;
+    padding: 10px 0;
+    color: rgb(94 88 88);
+}
+#content{
+    width: 698px;
+    margin: 50px auto;
+}
+.content-para{
+    font-size: 15px;
+    color: rgb(94 88 88);
+    line-height: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(22, 125, 235);
+}
+a:hover{
+    color: rgb(5, 74, 149);
+    transition: color 0.5s;
+}
+footer{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding-top: 22px;
+    height: 78px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 6px solid rgb(22, 125, 235);
+}
+span{
+    color: rgb(22, 125, 235);
+}
