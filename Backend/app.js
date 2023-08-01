@@ -1,6 +1,6 @@
 const { urlencoded } = require("express");
 const express = require("express");
-var cors = require('cors');
+var cors = require("cors");
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
 const router = require("./router/route");
@@ -12,10 +12,13 @@ app.use(cors());
 const port = process.env.PORT || 3000;
 
 mongoose
-  .connect("mongodb://localhost:27017/urlShortner", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb+srv://ranjit121220:fEPT7Uku15vJfehm@cluster0.qdr0amw.mongodb.net/urlShortner?retryWrites=true&w=majority",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .then(() => {
     console.log("Database connected successfully.");
   })
