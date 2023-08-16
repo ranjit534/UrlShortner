@@ -85,7 +85,7 @@ router.post("/shorten", async (req, res) => {
       });
     } else {
       const urlCode = shortid.generate(longUrl);
-      const shortUrl = `http://localhost:3000/${urlCode}`;
+      const shortUrl = `https://urlshortner-ps.onrender.com/${urlCode}`;
       const obj = {
         urlCode: urlCode,
         longUrl: longUrl,

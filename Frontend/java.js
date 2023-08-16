@@ -5,7 +5,7 @@ form.addEventListener('submit', function(e){
 
  var url=document.getElementById('url').value
 
- fetch('http://localhost:3000/shorten', {
+ fetch('https://urlshortner-ps.onrender.com/shorten', {
   method: 'POST',
   body: JSON.stringify({
     longUrl:url,
